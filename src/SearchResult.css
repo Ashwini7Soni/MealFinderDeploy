@@ -1,0 +1,24 @@
+.food-wrapper {
+  height: 0px;
+}
+.food-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 300px;
+  width: 300px;
+  z-index: 10;
+  position: relative;
+  opacity: 0;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.food-name:hover {
+  opacity: 1;
+}
+.wrapper {
+  margin-bottom: 20px;
+}
